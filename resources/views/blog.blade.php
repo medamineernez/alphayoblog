@@ -30,7 +30,7 @@
             <span>Written By Alphayo Wakarindi</span>
           </p>
           <h4>
-            <a href="blog/single">Benefits of getting covid 19 vaccination</a>
+            <a href='{{route("single.show")}}'>Benefits of getting covid 19 vaccination</a>
           </h4>
         </div>
 
@@ -41,7 +41,7 @@
             <span>Written By Alphayo Wakarindi</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="blog/single">Top 10 Music Stories Never Told</a>
+            <a href='{{route("single.show")}}'>Top 10 Music Stories Never Told</a>
           </h4>
         </div>
 
@@ -52,7 +52,7 @@
             <span>Written By Alphayo Wakarindi</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="blog/single">WRC Safari Rally Back To Kenya After 19 Years</a>
+            <a href='{{route("single.show")}}'>WRC Safari Rally Back To Kenya After 19 Years</a>
           </h4>
         </div>
 
@@ -63,7 +63,7 @@
             <span>Written By Alphayo Wakarindi</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="blog/single">Premier League 2021/2022 Fixtures</a>
+            <a href='{{route("single.show")}}'>Premier League 2021/2022 Fixtures</a>
           </h4>
         </div>
 
@@ -74,7 +74,7 @@
             <span>Written By Alphayo Wakarindi</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="blog/single">12 Health Benefits Of Pomegranate Fruit</a>
+            <a href='{{route("single.show")}}'>12 Health Benefits Of Pomegranate Fruit</a>
           </h4>
         </div>
 
@@ -85,7 +85,7 @@
             <span>Written By Alphayo Wakarindi</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="blog/single">Nairobi, The Only City In The World With A National Park</a>
+            <a href='{{route("single.show")}}'>Nairobi, The Only City In The World With A National Park</a>
           </h4>
         </div>
 

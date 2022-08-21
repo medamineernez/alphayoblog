@@ -1,12 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\welcomeCntroller;
-use App\Http\Controllers\BlogController;
-use App\Http\Controllers\contacController;
-
-
-
 
 /*
 |--------------------------------------------------------------------------
@@ -19,34 +13,12 @@ use App\Http\Controllers\contacController;
 |
 */
 
- 
-/* 
- Route::get('/', function () {
-        //fetch posts from db
-        //fetch categories from db
+Route::get('/', function () {
     return view('welcome');
-});  */
-
-Route::get('/welcome',[welcomeCntroller::class,'index']);
- 
-// to blog page 
-
-Route::get('/blog',[BlogController::class,'index']);
-
-// to a signle blog post 
-
-Route::get('/blog/single',[BlogController::class,'show']);
-
-//to about page 
-
-Route::get('/about',function(){
-    return view("about");
 });
 
-//to contact page 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/contactUs',[contacController::class,'index'])->name('contact');
-
-
-
-
+require __DIR__.'/auth.php';
